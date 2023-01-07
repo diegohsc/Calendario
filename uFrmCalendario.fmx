@@ -1,0 +1,120 @@
+object FrmCalendario: TFrmCalendario
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 315
+  ClientWidth = 386
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object rectCalendario: TRectangle
+    Align = Top
+    Fill.Color = xFF1A2FD1
+    Size.Width = 386.000000000000000000
+    Size.Height = 310.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    object lytNavegacao: TLayout
+      Align = Top
+      Size.Width = 386.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lblMes: TLabel
+        Align = Contents
+        StyledSettings = [Family, Style]
+        Size.Width = 386.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Agosto 2022'
+        TabOrder = 2
+      end
+      object imgAnterior: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00AE494441546843EDD3CB0AC2301046E1E85B7979B1828BEA23EB3224F1AF8C
+              22D46E049B19391F94D0348B332D4D00000058476B6D2CA59CED3696295ED783
+              86B8D8760C6A7EC53FD55A4FF6D837B5CEE273CE570DB0B3237EA995F82ED44A
+              7C176A25BE0BB512FFADADADBFB0B1D53FBDF4A5AFB0B723FEA9796988831DF1
+              4FCD7F3BC48D21D6A6E68F436839DA11FF14CB102E28763684FE87C11EC7A0E6
+              F72146DB8E650A0F1B0F0000E04E4A77415C1C87A91266530000000049454E44
+              AE426082}
+            FileName = 
+              'D:\99Coders\Posts\313 - Trabalhando com calend'#225'rios personalizad' +
+              'os em seus apps com Delphi ---------\Fontes\Images\icon-prior.pn' +
+              'g'
+          end>
+        Align = Left
+      end
+      object imgPosterior: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+        MultiResBitmap = <
+          item
+            Width = 48
+            Height = 48
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000300000003008060000005702F9
+              87000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0094494441546843EDD2410EC220144551EAAEAC6ECCC48176C93A24801FFD24
+              2CA0585E72CF8430BB8F10000000B08F94D2B394F2F0AB168BDF2CBED11A9173
+              BE7B784F67840D38C7185F1EDE63C45F3162168C980523663172C4C9CFD1163F
+              F5D8EBAFB25FC8E22FC41FC1E3DF1EDC237E288BBC127F048BD48DAFECDFDF3C
+              B8A711DFD4E05FF797567C53C365E3010000E484F0012B951C87B32494840000
+              000049454E44AE426082}
+            FileName = 
+              'D:\99Coders\Posts\313 - Trabalhando com calend'#225'rios personalizad' +
+              'os em seus apps com Delphi ---------\Fontes\Images\icon-next.png'
+          end>
+        Align = Right
+        Position.X = 336.000000000000000000
+      end
+    end
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 386.000000000000000000
+      Size.Height = 260.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 12.000000000000000000
+        Size.Width = 376.000000000000000000
+        Size.Height = 248.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        object lytCalendario: TLayout
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 366.000000000000000000
+          Size.Height = 244.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+        end
+      end
+    end
+  end
+end

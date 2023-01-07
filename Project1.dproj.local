@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/29 13:46:55.000.746,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/29 13:48:00.000.951,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/03 20:43:50.000.516,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 12:10:49.115,=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 12:11:18.513,C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\UfrmPrincipal.pas=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/07 12:11:18.513,C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\UfrmPrincipal.fmx=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/01/07 12:11:20.668,C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\Project1.dproj=C:\Users\diego\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/07 12:11:28.676,=C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\Unit2.pas</Transaction>
+    <Transaction>2023/01/07 12:12:12.265,C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\uFrmCalendario.fmx=C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\Unit2.fmx</Transaction>
+    <Transaction>2023/01/07 12:12:12.265,C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\uFrmCalendario.pas=C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\Unit2.pas</Transaction>
+    <Transaction>2023/01/07 12:55:17.507,=C:\Users\diego\OneDrive\Documentos\ProjetosDesenvolvimento\Projetos 2023\Calendario\Units\uCustomCalendar.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="emulator-5554" Android64="emulator-5554"/>
+	</ActiveMobileDevice>
+</BorlandProject>
